@@ -11,7 +11,7 @@ The key will be pulld once merged into the main after the cronjob runs on the vi
 
 ## How it is configured
 
-``*/10 * * * * su -s /bin/sh acep -c 'cd ~/.nx/config && /usr/local/bin/git pull -q origin main'``
+``*/10 * * * * sudo su -s /bin/sh acep -c 'cd ~/.nx/config && /usr/bin/git pull''``
 
 The acep user has a .nx folder that the repo is mapped to the config folder. the player config settings are not saved but the authorized.crt file is tracked in this repo.
 
