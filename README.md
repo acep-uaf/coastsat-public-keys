@@ -7,7 +7,7 @@ Create a new branch and add your contents of your public key to the authorized.c
 
 You should then create a new pull request from your branch, this should be reviewed and approved by Heike, Erin, or Noelle
 
-The key will be pulld once merged into the main after the cronjob runs on the virutal machines. The current configured time is running the git pull every 10 mins.
+The key will be pulled once merged into the main after the cronjob runs on the virutal machines. The current configured time is running the git pull every 10 mins.
 
 ## How it is configured
 
